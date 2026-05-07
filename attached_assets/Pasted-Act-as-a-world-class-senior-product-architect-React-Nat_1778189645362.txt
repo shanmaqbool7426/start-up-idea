@@ -1,0 +1,542 @@
+Act as a world-class senior product architect, React Native engineer, AI systems designer, game designer, geospatial engineer, and UX strategist.
+
+Build a next-generation real-world social movement platform and territory conquest app called:
+
+“LifeGrid” (changeable)
+
+This app combines:
+- INTVL
+- Pokémon Go
+- Snapchat Maps
+- Discord
+- LinkedIn
+- Strava
+- Duolingo streaks
+- Clash of Clans territory wars
+- AI assistant
+into one addictive real-world ecosystem.
+
+==================================================
+CORE VISION
+==================================================
+
+Turn real life into a multiplayer game.
+
+Users gain XP, rewards, friendships, status, and real-world benefits by:
+- walking
+- commuting
+- going to school
+- going to university
+- going to gym
+- attending events
+- working jobs
+- exploring cities
+- joining communities
+
+The app should feel:
+- alive
+- social
+- competitive
+- rewarding
+- futuristic
+- addictive
+- emotionally engaging
+
+Main emotional drivers:
+- belonging
+- competition
+- progress
+- discovery
+- status
+- friendships
+- teamwork
+- rewards
+
+==================================================
+TARGET USERS
+==================================================
+
+- University students
+- School students
+- Gym users
+- Walkers/runners
+- Young professionals
+- Gamers
+- Gen Z
+- Commuters
+- Local communities
+
+==================================================
+TECH STACK
+==================================================
+
+Frontend:
+- React Native
+- Expo latest
+- TypeScript
+- React Native Reanimated
+- React Native Gesture Handler
+- React Native Skia
+- FlashList
+
+Maps & Geospatial:
+- Mapbox GL
+- Turf.js
+- H3 Hexagonal Grid System
+- GeoHash
+- PostGIS
+
+Backend:
+- Node.js
+- NestJS
+- GraphQL
+- Socket.io
+- Redis
+- Firebase or Supabase
+
+Database:
+- PostgreSQL
+- PostGIS
+- Redis cache
+
+AI:
+- OpenAI APIs
+- TensorFlow Lite
+- ONNX
+- Recommendation systems
+- AI social matching
+- AI route intelligence
+
+Realtime:
+- WebSockets
+- Live location sync
+- Territory ownership updates
+
+==================================================
+MAIN APP CONCEPT
+==================================================
+
+The entire real world becomes a live multiplayer map.
+
+Users can:
+- conquer territories
+- join schools/universities
+- create clans
+- travel together
+- find people on same routes
+- save fuel
+- make friends
+- join commute groups
+- participate in city wars
+- earn XP and rewards
+- unlock achievements
+- discover jobs
+- join gym squads
+- attend local events
+
+==================================================
+MAIN FEATURE SYSTEM
+==================================================
+
+==================================================
+1. TERRITORY CONQUEST SYSTEM
+==================================================
+
+Build a massive real-time territory system.
+
+Features:
+- City divided into hexagonal territories
+- Users capture territory by movement
+- Walking/running expands territory
+- Team ownership
+- Dynamic live map updates
+- Territory decay system
+- Clan ownership
+- University dominance
+- Local battles
+- Global rankings
+
+Gameplay:
+- Daily wars
+- Territory defense
+- Squad attacks
+- Team raids
+- Seasonal map resets
+- Limited-time events
+
+Visuals:
+- Smooth animated map
+- Heatmaps
+- Territory glow
+- Animated borders
+- Live player movement
+
+==================================================
+2. SCHOOL & UNIVERSITY SYSTEM
+==================================================
+
+Schools and universities become live competitive communities.
+
+Features:
+- Verified student accounts
+- Campus groups
+- Campus territory wars
+- Department battles
+- Campus leaderboards
+- Attendance streaks
+- Study groups
+- Route sharing
+- Exam events
+- Student-only chats
+
+Examples:
+- FAST vs UMT
+- NUST vs COMSATS
+- Department wars
+- Campus XP rankings
+
+==================================================
+3. SMART ROUTE MATCHING
+==================================================
+
+AI-powered commuting and social discovery system.
+
+Users can:
+- discover people on same route
+- create commute circles
+- share rides
+- reduce fuel costs
+- travel safely together
+
+AI detects:
+- repeated routes
+- timing patterns
+- common destinations
+- compatible schedules
+
+Examples:
+“You and 6 students travel the same route daily.”
+
+==================================================
+4. SAFETY SYSTEM
+==================================================
+
+Build a deep trust and safety infrastructure.
+
+Features:
+- University verification
+- Face verification
+- Reputation score
+- Trust badges
+- Safe route recommendations
+- Emergency SOS
+- Guardian live tracking
+- AI suspicious behavior detection
+- Verified communities
+
+==================================================
+5. SOCIAL SYSTEM
+==================================================
+
+Build a hybrid of Discord + Instagram + Snapchat Maps.
+
+Features:
+- Social feed
+- Stories
+- Nearby activity
+- Voice rooms
+- Group chats
+- Clan chats
+- Reactions
+- Route sharing
+- Live map presence
+- Explore page
+
+==================================================
+6. AI SYSTEM
+==================================================
+
+Create a futuristic AI assistant layer.
+
+AI Features:
+- AI social matching
+- AI commute optimization
+- AI route prediction
+- AI friendship recommendations
+- AI event suggestions
+- AI fitness coach
+- AI study planner
+- AI networking assistant
+- AI safety insights
+- AI habit analysis
+
+AI Assistant Personality:
+Friendly, motivating, emotionally engaging.
+
+==================================================
+7. ADDICTION & RETENTION SYSTEM
+==================================================
+
+This is the MOST IMPORTANT part.
+
+Build advanced dopamine and engagement systems.
+
+Features:
+- Daily streaks
+- XP levels
+- Rank progression
+- Reward crates
+- Seasonal rewards
+- Achievement system
+- Mystery drops
+- Rare discoveries
+- Time-limited missions
+- FOMO notifications
+- Clan wars
+- Competitive leaderboards
+- Animated rewards
+- Sound effects
+- Victory celebrations
+
+Levels:
+- Bronze
+- Silver
+- Gold
+- Diamond
+- Elite
+- Legend
+
+==================================================
+8. CLAN & COMMUNITY SYSTEM
+==================================================
+
+Features:
+- Clans
+- Guilds
+- University teams
+- Gym squads
+- City alliances
+- Clan wars
+- Shared XP
+- Group missions
+- Clan territories
+- Clan voice chat
+
+==================================================
+9. FITNESS & HEALTH SYSTEM
+==================================================
+
+Features:
+- Step tracking
+- Running tracking
+- Cycling
+- Calories
+- Smartwatch sync
+- AI fitness coaching
+- Health goals
+- Workout missions
+
+==================================================
+10. JOB & NETWORKING SYSTEM
+==================================================
+
+Features:
+- Nearby jobs
+- Internship discovery
+- Skill communities
+- Career networking
+- Company territories
+- Recruitment events
+- AI career matching
+
+==================================================
+11. GAMIFICATION SYSTEM
+==================================================
+
+Everything should feel like an RPG.
+
+Features:
+- User avatars
+- Skins
+- Unlockable cosmetics
+- XP
+- Stats
+- Profile cards
+- Titles
+- Rare badges
+- Territory crowns
+- Achievement animations
+
+==================================================
+12. LIVE EVENTS SYSTEM
+==================================================
+
+Features:
+- Weekend events
+- Zombie mode
+- Treasure hunts
+- Double XP nights
+- University wars
+- City domination events
+- Seasonal competitions
+
+==================================================
+13. MAP EXPERIENCE
+==================================================
+
+Build a cinematic futuristic map UI.
+
+Features:
+- Dark futuristic map
+- Animated territory borders
+- Live glowing zones
+- Dynamic weather overlays
+- Heatmaps
+- Realtime movement
+- Smooth transitions
+- GPU optimized rendering
+
+==================================================
+14. UI/UX STYLE
+==================================================
+
+Design:
+- Premium
+- Futuristic
+- Dark mode focused
+- Glassmorphism
+- Neon highlights
+- Gaming aesthetic
+- Apple-level animations
+- Smooth transitions
+- Highly addictive visual feedback
+
+==================================================
+15. PERFORMANCE REQUIREMENTS
+==================================================
+
+Must support:
+- 120FPS animations
+- Low battery consumption
+- Background GPS
+- Massive concurrent users
+- Realtime updates
+- Offline support
+- Fast map rendering
+
+==================================================
+16. DATABASE ARCHITECTURE
+==================================================
+
+Design:
+- Territory ownership tables
+- Geospatial indexing
+- Movement history
+- Clan systems
+- Reputation system
+- XP systems
+- Seasonal rankings
+- AI recommendation tables
+
+==================================================
+17. MONETIZATION
+==================================================
+
+Build sustainable monetization.
+
+Features:
+- Premium memberships
+- Cosmetic skins
+- Territory themes
+- Battle passes
+- Clan upgrades
+- Sponsored events
+- Business promotions
+- University partnerships
+
+==================================================
+18. BUSINESS PARTNERSHIP SYSTEM
+==================================================
+
+Businesses can:
+- sponsor territories
+- host events
+- give rewards
+- create local missions
+
+Example:
+“Capture this café territory for free coffee.”
+
+==================================================
+19. FUTURE FEATURES
+==================================================
+
+- AR mode
+- Smart glasses support
+- AI voice companion
+- Real-world AR treasure hunts
+- Smart city integrations
+- AI-generated city missions
+- NFT/cosmetic economy optional
+- VR social hub optional
+
+==================================================
+20. REQUIRED OUTPUT
+==================================================
+
+Generate:
+1. Complete app architecture
+2. Folder structure
+3. Database schema
+4. Territory engine design
+5. Geospatial system architecture
+6. React Native frontend architecture
+7. Backend architecture
+8. AI system architecture
+9. Gamification engine
+10. Reward engine
+11. Realtime system
+12. UI design system
+13. Animation system
+14. API design
+15. Offline sync architecture
+16. Security architecture
+17. Anti-cheat system
+18. GPS spoofing detection
+19. Deployment architecture
+20. Scaling strategy
+
+==================================================
+21. IMPORTANT
+==================================================
+
+This app should NOT feel like:
+- a normal map app
+- a fitness app
+- a social app
+
+It should feel like:
+“A real-world multiplayer life game.”
+
+The experience should emotionally feel:
+- exciting
+- rewarding
+- socially alive
+- futuristic
+- deeply engaging
+- community driven
+- competitive
+- meaningful
+
+Build production-level architecture and code examples.
+
+Use scalable enterprise-level design patterns.
+
+Optimize especially for:
+- Android phones
+- Android tablets
+- Gen Z users
+- Real-time map interaction
+- Viral growth
+- Retention
+- dopamine-driven UX

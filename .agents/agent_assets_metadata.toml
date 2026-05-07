@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "82QkptKmclVaoACnWHeXu"
+uri = "file://assets/images/icon.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "WW7nCoV5CM_BalXR6gj3W"
+uri = "file://assets/images/splash.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ylFxcCuBb_zP52iRYjqce"
+uri = "file://assets/images/hero-banner.png"
+type = "image"
+title = "generated_image"
