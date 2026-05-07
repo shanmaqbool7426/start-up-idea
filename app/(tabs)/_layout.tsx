@@ -1,11 +1,32 @@
 import { Tabs } from 'expo-router';
-import { Platform, View, StyleSheet } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+import { Platform, View, StyleSheet, Text } from 'react-native';
+import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import { COLORS } from '@/constants/colors';
-import { BlurView } from 'expo-blur';
 
-function TabBarIcon({ name, color, size }: { name: keyof typeof Ionicons.glyphMap; color: string; size: number }) {
-  return <Ionicons name={name} size={size} color={color} />;
+type TabIconProps = {
+  name: keyof typeof Ionicons.glyphMap;
+  color: string;
+  size: number;
+  label: string;
+  focused: boolean;
+};
+
+function TabIcon({ name, color, size, label, focused }: TabIconProps) {
+  return (
+    <View style={styles.tabItem}>
+      <Ionicons name={name} size={size} color={color} />
+      <Text style={[styles.tabLabel, { color }]}>{label}</Text>
+    </View>
+  );
+}
+
+function RunIcon({ color, size, focused }: { color: string; size: number; focused: boolean }) {
+  return (
+    <View style={styles.tabItem}>
+      <Ionicons name="walk" size={size} color={color} />
+      <Text style={[styles.tabLabel, { color }]}>Start Run</Text>
+    </View>
+  );
 }
 
 export default function TabLayout() {
@@ -17,42 +38,49 @@ export default function TabLayout() {
         tabBarActiveTintColor: COLORS.primary,
         tabBarInactiveTintColor: COLORS.foregroundDim,
         tabBarShowLabel: false,
-        tabBarBackground: () =>
-          Platform.OS === 'ios' ? (
-            <BlurView intensity={40} tint="dark" style={StyleSheet.absoluteFill} />
-          ) : (
-            <View style={[StyleSheet.absoluteFill, { backgroundColor: COLORS.card + 'F5' }]} />
-          ),
+        tabBarBackground: () => (
+          <View style={[StyleSheet.absoluteFill, { backgroundColor: COLORS.card, borderTopWidth: 1, borderTopColor: COLORS.border }]} />
+        ),
       }}
     >
       <Tabs.Screen
         name="index"
         options={{
-          tabBarIcon: ({ color, size }) => <TabBarIcon name="map" color={color} size={size} />,
+          tabBarIcon: ({ color, size, focused }) => (
+            <TabIcon name="globe-outline" color={color} size={size} label="Play" focused={focused} />
+          ),
         }}
       />
       <Tabs.Screen
-        name="social"
+        name="plan"
         options={{
-          tabBarIcon: ({ color, size }) => <TabBarIcon name="people" color={color} size={size} />,
+          tabBarIcon: ({ color, size, focused }) => (
+            <TabIcon name="calendar-outline" color={color} size={size} label="Plan" focused={focused} />
+          ),
         }}
       />
       <Tabs.Screen
-        name="clans"
+        name="me"
         options={{
-          tabBarIcon: ({ color, size }) => <TabBarIcon name="shield" color={color} size={size} />,
+          tabBarIcon: ({ color, size, focused }) => (
+            <TabIcon name="person-outline" color={color} size={size} label="Me" focused={focused} />
+          ),
         }}
       />
       <Tabs.Screen
-        name="quests"
+        name="feed"
         options={{
-          tabBarIcon: ({ color, size }) => <TabBarIcon name="trophy" color={color} size={size} />,
+          tabBarIcon: ({ color, size, focused }) => (
+            <TabIcon name="people-outline" color={color} size={size} label="Feed" focused={focused} />
+          ),
         }}
       />
       <Tabs.Screen
-        name="profile"
+        name="run"
         options={{
-          tabBarIcon: ({ color, size }) => <TabBarIcon name="person" color={color} size={size} />,
+          tabBarIcon: ({ color, size, focused }) => (
+            <RunIcon color={focused ? COLORS.primary : COLORS.foregroundDim} size={size} focused={focused} />
+          ),
         }}
       />
     </Tabs>
@@ -61,11 +89,20 @@ export default function TabLayout() {
 
 const styles = StyleSheet.create({
   tabBar: {
-    position: 'absolute',
-    borderTopWidth: 1,
-    borderTopColor: COLORS.border,
     height: Platform.OS === 'web' ? 84 : 84,
+    borderTopWidth: 0,
     elevation: 0,
     backgroundColor: 'transparent',
+  },
+  tabItem: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 3,
+    paddingTop: 6,
+  },
+  tabLabel: {
+    fontSize: 9,
+    fontWeight: '600',
+    letterSpacing: 0.2,
   },
 });
